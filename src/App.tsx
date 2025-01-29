@@ -38,7 +38,7 @@ function App() {
           index
           element={
             <>
-              <PageTitle title="eCommerce Dashboard | TailAdmin - Tailwind CSS Admin Dashboard Template" />
+              <PageTitle title="EpidemioBI v0.1" />
               <ECommerce />
             </>
           }
@@ -47,7 +47,7 @@ function App() {
           path="/calendar"
           element={
             <>
-              <PageTitle title="Calendar | TailAdmin - Tailwind CSS Admin Dashboard Template" />
+              <PageTitle title="Calendar | Epidemio BI v0.1" />
               <Calendar />
             </>
           }
@@ -56,7 +56,7 @@ function App() {
           path="/profile"
           element={
             <>
-              <PageTitle title="Profile | TailAdmin - Tailwind CSS Admin Dashboard Template" />
+              <PageTitle title="Profile | Epidemio BI v0.1" />
               <Profile />
             </>
           }
@@ -65,7 +65,7 @@ function App() {
           path="/forms/form-elements"
           element={
             <>
-              <PageTitle title="Form Elements | TailAdmin - Tailwind CSS Admin Dashboard Template" />
+              <PageTitle title="Form Elements | Epidemio BI v0.1" />
               <FormElements />
             </>
           }
@@ -74,7 +74,7 @@ function App() {
           path="/forms/form-layout"
           element={
             <>
-              <PageTitle title="Form Layout | TailAdmin - Tailwind CSS Admin Dashboard Template" />
+              <PageTitle title="Form Layout | Epidemio BI v0.1" />
               <FormLayout />
             </>
           }
@@ -83,7 +83,7 @@ function App() {
           path="/tables"
           element={
             <>
-              <PageTitle title="Tables | TailAdmin - Tailwind CSS Admin Dashboard Template" />
+              <PageTitle title="Tables | Epidemio BI v0.1" />
               <Tables />
             </>
           }
@@ -92,7 +92,7 @@ function App() {
           path="/settings"
           element={
             <>
-              <PageTitle title="Settings | TailAdmin - Tailwind CSS Admin Dashboard Template" />
+              <PageTitle title="Settings | Epidemio BI v0.1" />
               <Settings />
             </>
           }
@@ -101,7 +101,7 @@ function App() {
           path="/chart"
           element={
             <>
-              <PageTitle title="Basic Chart | TailAdmin - Tailwind CSS Admin Dashboard Template" />
+              <PageTitle title="Basic Chart | Epidemio BI v0.1" />
               <Chart />
             </>
           }
@@ -110,7 +110,7 @@ function App() {
           path="/ui/alerts"
           element={
             <>
-              <PageTitle title="Alerts | TailAdmin - Tailwind CSS Admin Dashboard Template" />
+              <PageTitle title="Alerts | Epidemio BI v0.1" />
               <Alerts />
             </>
           }
@@ -119,7 +119,7 @@ function App() {
           path="/ui/buttons"
           element={
             <>
-              <PageTitle title="Buttons | TailAdmin - Tailwind CSS Admin Dashboard Template" />
+              <PageTitle title="Buttons | Epidemio BI v0.1" />
               <Buttons />
             </>
           }
@@ -128,7 +128,7 @@ function App() {
           path="/auth/signin"
           element={
             <>
-              <PageTitle title="Signin | TailAdmin - Tailwind CSS Admin Dashboard Template" />
+              <PageTitle title="Signin | Epidemio BI v0.1" />
               <SignIn />
             </>
           }
@@ -137,7 +137,7 @@ function App() {
           path="/auth/signup"
           element={
             <>
-              <PageTitle title="Signup | TailAdmin - Tailwind CSS Admin Dashboard Template" />
+              <PageTitle title="Signup | Epidemio BI v0.1" />
               <SignUp />
             </>
           }
