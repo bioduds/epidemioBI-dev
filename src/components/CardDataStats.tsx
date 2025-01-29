@@ -4,6 +4,7 @@ interface CardDataStatsProps {
   title: string;
   total: string;
   rate: string;
+  explanation: string; // New prop for explanation
   levelUp?: boolean;
   levelDown?: boolean;
   children: ReactNode;
@@ -13,22 +14,37 @@ const CardDataStats: React.FC<CardDataStatsProps> = ({
   title,
   total,
   rate,
+  explanation, // Using the new explanation prop
   levelUp,
   levelDown,
   children,
 }) => {
   return (
     <div className="rounded-sm border border-stroke bg-white py-6 px-7.5 shadow-default dark:border-strokedark dark:bg-boxdark">
-      <div className="flex h-11.5 w-11.5 items-center justify-center rounded-full bg-meta-2 dark:bg-meta-4">
-        {children}
+      {/* Title on top */}
+      <div className="mt-0 flex flex-col items-center justify-center">
+        <h4 className="text-title-md font-bold text-black dark:text-white">
+          {title}
+        </h4>
       </div>
 
+      {/* Figure container */}
+      <div className="flex h-11.5 w-11.5 items-center justify-center rounded-full bg-meta-2 dark:bg-meta-4 mt-4">
+        {/* Brazilian Flag Image */}
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Flag_of_Brazil.svg/800px-Flag_of_Brazil.svg.png"
+          alt="Brazilian Flag"
+          className="w-full h-full object-contain rounded-full"
+        />
+      </div>
+
+      {/* Bottom section with total and explanation */}
       <div className="mt-4 flex items-end justify-between">
         <div>
           <h4 className="text-title-md font-bold text-black dark:text-white">
             {total}
           </h4>
-          <span className="text-sm font-medium">{title}</span>
+          <span className="text-sm font-medium">{explanation}</span> {/* Display explanation instead of title */}
         </div>
 
         <span
