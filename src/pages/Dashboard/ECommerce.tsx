@@ -17,165 +17,164 @@ const ECommerce: React.FC = () => {
       <div className="grid grid-cols-1 gap-4 md:grid-cols-2 md:gap-6 xl:grid-cols-4 2xl:gap-7.5">
 
 
-        <CardDataStats title="New HIV Infections (2023)" total="0.24" rate="0%"
-          explanation='novos casos para cada 100.000 habitantes'
-          levelUp>
-          <svg
-            className="fill-primary dark:fill-white"
-            width="22"
-            height="16"
-            viewBox="0 0 22 16"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-          </svg>
-        </CardDataStats>
 
-        <CardDataStats title="Tuberculosis Incidence (2023)" total="49" rate="0%"
-          explanation='novos casos para cada 100.000 habitantes'
-          levelUp>
-          <svg
-            className="fill-primary dark:fill-white"
-            width="22"
-            height="16"
-            viewBox="0 0 22 16"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-          </svg>
-        </CardDataStats>
 
-        <CardDataStats title="Malaria Incidence (2021)" total="3.72" rate="-0.14"
-          explanation='novos casos para cada 100.000 habitantes'
-          levelDown>
-          <svg
-            className="fill-primary dark:fill-white"
-            width="22"
-            height="16"
-            viewBox="0 0 22 16"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-          </svg>
-        </CardDataStats>
+      <CardDataStats title="Novos Casos de HIV (2023)" total="0.24" rate="0%"
+  explanation='novos casos para cada 100.000 habitantes'
+  levelUp>
+  <svg
+    className="fill-primary dark:fill-white"
+    width="22"
+    height="16"
+    viewBox="0 0 22 16"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+  </svg>
+</CardDataStats>
 
-        <CardDataStats title="Hepatitis B Prevalence (2020)" total="0.03%" rate="0%"
-          explanation='novos casos para cada 100.000 habitantes'
-          levelUp>
-          <svg
-            className="fill-primary dark:fill-white"
-            width="22"
-            height="16"
-            viewBox="0 0 22 16"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-          </svg>
-        </CardDataStats>
+<CardDataStats title="Incidência de Tuberculose (2023)" total="49" rate="0%"
+  explanation='novos casos para cada 100.000 habitantes'
+  levelUp>
+  <svg
+    className="fill-primary dark:fill-white"
+    width="22"
+    height="16"
+    viewBox="0 0 22 16"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+  </svg>
+</CardDataStats>
 
-        <CardDataStats title="Probability of Dying from NCDs (2019)" total="15%" rate="-1 percentage point"
-          explanation='porcentagem atribuída a doenças não transmissíveis (DNTs)'
-          levelDown>
-          <svg
-            className="fill-primary dark:fill-white"
-            width="22"
-            height="16"
-            viewBox="0 0 22 16"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-          </svg>
-        </CardDataStats>
+<CardDataStats title="Incidência de Malária (2021)" total="3.72" rate="-0.14"
+  explanation='novos casos para cada 100.000 habitantes'
+  levelDown>
+  <svg
+    className="fill-primary dark:fill-white"
+    width="22"
+    height="16"
+    viewBox="0 0 22 16"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+  </svg>
+</CardDataStats>
 
-        <CardDataStats title="Road Traffic Deaths" total="15.7" rate="stable since 2022"
-          explanation='ocorrências para cada 100.000 habitantes'
-        >
-          <svg
-            className="fill-primary dark:fill-white"
-            width="22"
-            height="16"
-            viewBox="0 0 22 16"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-          </svg>
-        </CardDataStats>
+<CardDataStats title="Prevalência de Hepatite B (2020)" total="0.03%" rate="0%"
+  explanation='novos casos para cada 100.000 habitantes'
+  levelUp>
+  <svg
+    className="fill-primary dark:fill-white"
+    width="22"
+    height="16"
+    viewBox="0 0 22 16"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+  </svg>
+</CardDataStats>
 
-        <CardDataStats title="Unintentional Poisoning Mortality" total="0.15" rate="improving since 2018">
-          <svg
-            className="fill-primary dark:fill-white"
-            width="22"
-            height="16"
-            viewBox="0 0 22 16"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-          </svg>
-        </CardDataStats>
+<CardDataStats title="Probabilidade de Morte por DNTs (2019)" total="15%" rate="-1 ponto percentual"
+  explanation='porcentagem atribuída a doenças não transmissíveis (DNTs)'
+  levelDown>
+  <svg
+    className="fill-primary dark:fill-white"
+    width="22"
+    height="16"
+    viewBox="0 0 22 16"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+  </svg>
+</CardDataStats>
 
-        <CardDataStats title="Suicide Mortality" total="6.89" rate="improving since 2018">
-          <svg
-            className="fill-primary dark:fill-white"
-            width="22"
-            height="16"
-            viewBox="0 0 22 16"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-          </svg>
-        </CardDataStats>
+<CardDataStats title="Mortes no Trânsito" total="15.7" rate="estável desde 2022"
+  explanation='ocorrências para cada 100.000 habitantes'
+>
+  <svg
+    className="fill-primary dark:fill-white"
+    width="22"
+    height="16"
+    viewBox="0 0 22 16"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+  </svg>
+</CardDataStats>
 
-        <CardDataStats title="Homicide Mortality" total="32.59" rate="worsening since 2018">
-          <svg
-            className="fill-primary dark:fill-white"
-            width="22"
-            height="16"
-            viewBox="0 0 22 16"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
+<CardDataStats title="Mortalidade por Intoxicação Acidental" total="0.15" rate="melhorando desde 2018">
+  <svg
+    className="fill-primary dark:fill-white"
+    width="22"
+    height="16"
+    viewBox="0 0 22 16"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+  </svg>
+</CardDataStats>
 
-          </svg>
-        </CardDataStats>
+<CardDataStats title="Mortalidade por Suicídio" total="6.89" rate="melhorando desde 2018">
+  <svg
+    className="fill-primary dark:fill-white"
+    width="22"
+    height="16"
+    viewBox="0 0 22 16"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+  </svg>
+</CardDataStats>
 
-        <CardDataStats title="Maternal Mortality" total="60.74" rate="worsening since 2018">
-          <svg
-            className="fill-primary dark:fill-white"
-            width="22"
-            height="16"
-            viewBox="0 0 22 16"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
+<CardDataStats title="Mortalidade por Homicídio" total="32.59" rate="piorando desde 2018">
+  <svg
+    className="fill-primary dark:fill-white"
+    width="22"
+    height="16"
+    viewBox="0 0 22 16"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+  </svg>
+</CardDataStats>
 
-          </svg>
-        </CardDataStats>
+<CardDataStats title="Mortalidade Materna" total="60.74" rate="piorando desde 2018">
+  <svg
+    className="fill-primary dark:fill-white"
+    width="22"
+    height="16"
+    viewBox="0 0 22 16"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+  </svg>
+</CardDataStats>
 
-        <CardDataStats title="Under Five Mortality" total="14.02" rate="improving since 2021">
-          <svg
-            className="fill-primary dark:fill-white"
-            width="22"
-            height="16"
-            viewBox="0 0 22 16"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
+<CardDataStats title="Mortalidade Infantil (menores de 5 anos)" total="14.02" rate="melhorando desde 2021">
+  <svg
+    className="fill-primary dark:fill-white"
+    width="22"
+    height="16"
+    viewBox="0 0 22 16"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+  </svg>
+</CardDataStats>
 
-          </svg>
-        </CardDataStats>
+<CardDataStats title="Mortalidade Neonatal" total="8.57" rate="melhorando desde 2021">
+  <svg
+    className="fill-primary dark:fill-white"
+    width="22"
+    height="16"
+    viewBox="0 0 22 16"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+  </svg>
+</CardDataStats>
 
-        <CardDataStats title="Neonatal Mortality" total="8.57" rate="improving since 2021">
-          <svg
-            className="fill-primary dark:fill-white"
-            width="22"
-            height="16"
-            viewBox="0 0 22 16"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-
-          </svg>
-        </CardDataStats>
 
 
       </div>
@@ -194,140 +193,141 @@ const ECommerce: React.FC = () => {
       <div className="mt-4 grid grid-cols-3 gap-4 md:mt-6 md:gap-6 2xl:mt-7.5 2xl:gap-7.5">
 
 
-        <IndicatorCard
-          title="Hypertension"
-          year="Brazil, 2019"
-          percentage="45% [39.9% - 50.2%]"
-          change="−0.1 percentage points"
-          trend="improving since 2018"
-          description="Age-standardized prevalence of hypertension among adults aged 30-79 years (%)"
-        />
+      <IndicatorCard
+  title="Hipertensão"
+  year="Brasil, 2019"
+  percentage="45% [39,9% - 50,2%]"
+  change="−0,1 pontos percentuais"
+  trend="melhorando desde 2018"
+  description="Prevalência padronizada por idade de hipertensão entre adultos de 30-79 anos (%)"
+/>
 
-        <IndicatorCard
-          title="Tobacco use"
-          year="Brazil, 2020"
-          percentage="12.9% [9.7% - 16.1%]"
-          change=""
-          trend=""
-          description="Age-standardized prevalence of tobacco use among persons 15 years and older (%)"
-        />
+<IndicatorCard
+  title="Uso de tabaco"
+  year="Brasil, 2020"
+  percentage="12,9% [9,7% - 16,1%]"
+  change=""
+  trend=""
+  description="Prevalência padronizada por idade do uso de tabaco entre pessoas com 15 anos ou mais (%)"
+/>
 
-        <IndicatorCard
-          title="Alcohol consumption"
-          year="Brazil, 2019"
-          percentage="7.67 [5.14 - 10.27]"
-          change="−0.52"
-          trend="change since 2015"
-          description="Total alcohol per capita (≥ 15 years of age) consumption (litres of pure alcohol)"
-        />
+<IndicatorCard
+  title="Consumo de álcool"
+  year="Brasil, 2019"
+  percentage="7,67 [5,14 - 10,27]"
+  change="−0,52"
+  trend="mudança desde 2015"
+  description="Consumo total de álcool per capita (≥ 15 anos de idade) em litros de álcool puro"
+/>
 
-        <IndicatorCard
-          title="Adult obesity"
-          year="Brazil, 2022"
-          percentage="28.1% [25.7% - 30.6%]"
-          change="+1 percentage points"
-          trend="worsening since 2021"
-          description="Age-standardized prevalence of obesity among adults (18+ years) (%)"
-        />
+<IndicatorCard
+  title="Obesidade em adultos"
+  year="Brasil, 2022"
+  percentage="28,1% [25,7% - 30,6%]"
+  change="+1 ponto percentual"
+  trend="piorando desde 2021"
+  description="Prevalência padronizada por idade de obesidade entre adultos (18+ anos) (%)"
+/>
 
-        <IndicatorCard
-          title="Children and adolescents obesity"
-          year="Brazil, 2022"
-          percentage="15.5% [13.4% - 17.7%]"
-          change="+0.5 percentage points"
-          trend="worsening since 2021"
-          description="Prevalence of obesity among children and adolescents (5–19 years) (%)"
-        />
+<IndicatorCard
+  title="Obesidade em crianças e adolescentes"
+  year="Brasil, 2022"
+  percentage="15,5% [13,4% - 17,7%]"
+  change="+0,5 pontos percentuais"
+  trend="piorando desde 2021"
+  description="Prevalência de obesidade entre crianças e adolescentes (5–19 anos) (%)"
+/>
 
-        <IndicatorCard
-          title="Intimate partner violence (previous 12 months)"
-          year="Brazil, 2018"
-          percentage="6% [4% - 10%]"
-          change=""
-          trend=""
-          description="Proportion of ever-partnered women and girls aged 15–49 years subjected to physical and/or sexual violence by a current or former intimate partner in the previous 12 months (%)"
-        />
+<IndicatorCard
+  title="Violência por parceiro íntimo (últimos 12 meses)"
+  year="Brasil, 2018"
+  percentage="6% [4% - 10%]"
+  change=""
+  trend=""
+  description="Proporção de mulheres e meninas de 15–49 anos sujeitas a violência física e/ou sexual por parceiro íntimo nos últimos 12 meses (%)"
+/>
 
-        <IndicatorCard
-          title="Intimate partner violence (Lifetime)"
-          year="Brazil, 2018"
-          percentage="23% [15% - 34%]"
-          change=""
-          trend=""
-          description="Proportion of ever-partnered women and girls aged 15–49 years subjected to physical and/or sexual violence by a current or former intimate partner in their lifetime (%)"
-        />
+<IndicatorCard
+  title="Violência por parceiro íntimo (ao longo da vida)"
+  year="Brasil, 2018"
+  percentage="23% [15% - 34%]"
+  change=""
+  trend=""
+  description="Proporção de mulheres e meninas de 15–49 anos sujeitas a violência física e/ou sexual por parceiro íntimo ao longo da vida (%)"
+/>
 
-        <IndicatorCard
-          title="Stunting under 5"
-          year="Brazil, 2022"
-          percentage="7.2% [6.2% - 8.4%]"
-          change="±0 percentage points"
-          trend="stable since 2021"
-          description="Prevalence of stunting in children under 5 (%)"
-        />
+<IndicatorCard
+  title="Baixa estatura em menores de 5 anos"
+  year="Brasil, 2022"
+  percentage="7,2% [6,2% - 8,4%]"
+  change="±0 pontos percentuais"
+  trend="estável desde 2021"
+  description="Prevalência de baixa estatura em crianças menores de 5 anos (%)"
+/>
 
-        <IndicatorCard
-          title="Wasting under 5"
-          year="Brazil, latest"
-          percentage="3.4% [2.9% - 4.1%]"
-          change="+1 percentage point"
-          trend="worsening since 1989"
-          description="Prevalence of wasting in children under 5 (%)"
-        />
+<IndicatorCard
+  title="Emagrecimento em menores de 5 anos"
+  year="Brasil, mais recente"
+  percentage="3,4% [2,9% - 4,1%]"
+  change="+1 ponto percentual"
+  trend="piorando desde 1989"
+  description="Prevalência de emagrecimento em crianças menores de 5 anos (%)"
+/>
 
-        <IndicatorCard
-          title="Safely managed drinking water"
-          year="Brazil, 2022"
-          percentage="87%"
-          change="+1 percentage points"
-          trend="improving since 2021"
-          description="Proportion of population using safely-managed drinking-water services (%)"
-        />
+<IndicatorCard
+  title="Água potável gerida com segurança"
+  year="Brasil, 2022"
+  percentage="87%"
+  change="+1 ponto percentual"
+  trend="melhorando desde 2021"
+  description="Proporção da população utilizando serviços de água potável geridos com segurança (%)"
+/>
 
-        <IndicatorCard
-          title="Safely managed sanitation"
-          year="Brazil, 2022"
-          percentage="50%"
-          change="+0 percentage points"
-          trend="improving since 2021"
-          description="Proportion of population using safely-managed sanitation services (%)"
-        />
+<IndicatorCard
+  title="Saneamento gerido com segurança"
+  year="Brasil, 2022"
+  percentage="50%"
+  change="+0 pontos percentuais"
+  trend="melhorando desde 2021"
+  description="Proporção da população utilizando serviços de saneamento geridos com segurança (%)"
+/>
 
-        <IndicatorCard
-          title="Handwashing facilities"
-          year="Brazil, 2022"
-          percentage="Data not available"
-          change=""
-          trend=""
-          description="Proportion of population with access to handwashing facilities"
-        />
+<IndicatorCard
+  title="Instalações para lavagem das mãos"
+  year="Brasil, 2022"
+  percentage="Dados não disponíveis"
+  change=""
+  trend=""
+  description="Proporção da população com acesso a instalações para lavagem das mãos"
+/>
 
-        <IndicatorCard
-          title="Safely treated wastewater flows"
-          year="Brazil, 2022"
-          percentage="43%"
-          change="+10 percentage points"
-          trend="improving since 2020"
-          description="Proportion of safely treated domestic wastewater flows (%)"
-        />
+<IndicatorCard
+  title="Tratamento seguro de esgoto doméstico"
+  year="Brasil, 2022"
+  percentage="43%"
+  change="+10 pontos percentuais"
+  trend="melhorando desde 2020"
+  description="Proporção de esgoto doméstico tratado com segurança (%)"
+/>
 
-        <IndicatorCard
-          title="Clean fuels"
-          year="Brazil, 2022"
-          percentage="96.5% [84.3% - 99.9%]"
-          change="±0 percentage points"
-          trend="stable since 2021"
-          description="Proportion of population with primary reliance on clean fuels and technology (%)"
-        />
+<IndicatorCard
+  title="Combustíveis limpos"
+  year="Brasil, 2022"
+  percentage="96,5% [84,3% - 99,9%]"
+  change="±0 pontos percentuais"
+  trend="estável desde 2021"
+  description="Proporção da população com uso primário de combustíveis e tecnologias limpas (%)"
+/>
 
-        <IndicatorCard
-          title="Fine particulate matter"
-          year="Brazil, 2019"
-          percentage="10.94 [9.37 - 13.01]"
-          change="−0.21"
-          trend="improving since 2018"
-          description="Annual mean concentrations of fine particulate matter (PM2.5) in urban areas (µg/m3)"
-        />
+<IndicatorCard
+  title="Matéria particulada fina"
+  year="Brasil, 2019"
+  percentage="10,94 [9,37 - 13,01]"
+  change="−0,21"
+  trend="melhorando desde 2018"
+  description="Médias anuais de concentração de matéria particulada fina (PM2.5) em áreas urbanas (µg/m³)"
+/>
+
 
       </div>
 
